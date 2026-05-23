@@ -1,0 +1,265 @@
+aid: travelers-companies
+name: The Travelers Companies
+kind: company
+description: >-
+  The Travelers Companies, Inc. (NYSE: TRV) is a leading United States property
+  and casualty (P&C) insurance carrier providing auto, home, and business
+  insurance to individuals, agencies, businesses, government units, and
+  associations. Travelers is a component of the Dow Jones Industrial Average,
+  generated approximately $48.83 billion in revenue in 2025, holds roughly
+  $143.7 billion in total assets, and employs approximately 34,000 people plus
+  15,000 independent agents and brokers across the United States, Canada, the
+  United Kingdom, and the Republic of Ireland. The company operates through
+  three reportable segments — Business Insurance, Bond & Specialty Insurance,
+  and Personal Insurance — distributing primarily through a network of
+  independent agents and brokers, and through direct-to-consumer channels for
+  segments of its personal lines. Travelers has a developer portal at
+  developer.travelers.com that surfaces APIs intended for appointed agents,
+  agency-management-system (AMS) vendors, and integration partners; the portal
+  is gated (Salesforce Experience Cloud) and individual API specifications,
+  endpoints, and pricing are not publicly published. The company also publishes
+  the IntelliDrive and IntelliDrivePlus telematics mobile apps used to score
+  personal-auto driving behavior for rating credits.
+type: Index
+position: Consuming
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/travelers-companies/refs/heads/main/apis.yml
+tags:
+  - Agency Distribution
+  - Auto Insurance
+  - Bond and Specialty
+  - Business Insurance
+  - Claims
+  - Commercial Insurance
+  - Cyber Insurance
+  - Dow Jones Industrial Average
+  - Fortune 100
+  - Homeowners
+  - Insurance
+  - Personal Insurance
+  - Property and Casualty
+  - Risk Management
+  - Surety Bonds
+  - Telematics
+  - Workers Compensation
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.travelers.com
+    name: Travelers Website
+  - type: DeveloperPortal
+    url: https://developer.travelers.com
+    name: Travelers Developer Portal
+    description: >-
+      Gated developer portal (Salesforce Experience Cloud) used to onboard
+      appointed agents, agency-management-system vendors, and integration
+      partners onto Travelers' partner APIs. Specifications, endpoints, and
+      pricing are not publicly published; access requires an appointment or
+      partnership agreement with Travelers.
+  - type: GitHubOrganization
+    url: https://github.com/travelers
+    name: Travelers Technology on GitHub
+    description: >-
+      Travelers Technology organization on GitHub (opensource@travelers.com,
+      Hartford, CT). The organization currently exposes two public
+      repositories — KubUI (JavaScript, last updated 2019) and cloud-automation
+      (Python fork of Dynatrace observability content, last updated 2023) —
+      and no language SDKs or developer tools.
+  - type: GitHubRepository
+    url: https://github.com/travelers/KubUI
+    name: KubUI
+    description: Public Travelers JavaScript repository (last updated Jan 2019).
+  - type: GitHubRepository
+    url: https://github.com/travelers/cloud-automation
+    name: cloud-automation
+    description: >-
+      Public Travelers fork of Dynatrace Cloud Automation observability content
+      (Python, last updated Jan 2023).
+  - type: MobileApp
+    url: https://www.travelers.com/intellidrive
+    name: Travelers IntelliDrive
+    description: >-
+      90-day smartphone-based telematics program that captures braking,
+      acceleration, speed, time of day, and phone distraction to score
+      personal-auto driving behavior; safe driving can yield up to 30% savings
+      at renewal. iOS 14+ and Android 10+.
+  - type: MobileApp
+    url: https://www.travelers.com/intellidrive
+    name: IntelliDrivePlus
+    description: >-
+      Continuous (not 90-day) version of the IntelliDrive telematics program,
+      available in select states.
+  - type: MobileApp
+    url: https://www.travelers.com/online-service
+    name: MyTravelers
+    description: >-
+      Customer self-service portal and mobile experience used to manage
+      personal-lines policies, billing, and claims.
+  - type: InvestorRelations
+    url: https://investor.travelers.com/
+    name: Travelers Investor Relations
+  - type: SECFilings
+    url: https://investor.travelers.com/financial-information/sec-filings
+    name: SEC Filings
+  - type: StockInformation
+    url: https://investor.travelers.com/
+    name: "Stock Information (NYSE: TRV)"
+  - type: Newsroom
+    url: https://newsroom.travelers.com/
+    name: Travelers Newsroom
+  - type: AgentResources
+    url: https://www.travelers.com/agents
+    name: Travelers for Agents
+    description: >-
+      Resources, training, and tools for the approximately 15,000 independent
+      agents and brokers appointed to distribute Travelers products.
+  - type: PersonalInsurance
+    url: https://www.travelers.com/personal-insurance
+    name: Personal Insurance
+  - type: BusinessInsurance
+    url: https://www.travelers.com/business-insurance
+    name: Business Insurance
+  - type: ClaimsReporting
+    url: https://www.travelers.com/claims
+    name: Travelers Claims
+  - type: Careers
+    url: https://careers.travelers.com/
+    name: Travelers Careers
+  - type: About
+    url: https://www.travelers.com/about-travelers
+    name: About Travelers
+  - type: Leadership
+    url: https://www.travelers.com/about-travelers/leadership
+    name: Travelers Leadership
+  - type: PrivacyPolicy
+    url: https://www.travelers.com/privacy
+    name: Privacy Policy
+  - type: TermsOfService
+    url: https://www.travelers.com/terms-of-service
+    name: Terms of Service
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/travelers
+    name: Travelers on LinkedIn
+  - type: JSONLD
+    url: json-ld/travelers-companies-context.jsonld
+    name: Travelers Companies JSON-LD Context
+  - type: Vocabulary
+    url: vocabulary/travelers-companies-vocabulary.yml
+    name: Travelers Companies Vocabulary
+  - name: Subsidiaries
+    type: Subsidiaries
+    data:
+      - name: The Travelers Indemnity Company
+      - name: Travelers Casualty and Surety Company of America
+      - name: The Standard Fire Insurance Company
+      - name: The Phoenix Insurance Company
+      - name: Travelers Personal Insurance Company
+      - name: Travelers Insurance Company of Canada
+      - name: Travelers Insurance Company Limited (UK)
+      - name: Travelers Insurance Designated Activity Company (Ireland)
+      - name: Simply Business (UK SMB insurance digital broker)
+  - name: BusinessSegments
+    type: BusinessSegments
+    data:
+      - name: Business Insurance
+      - name: Bond & Specialty Insurance
+      - name: Personal Insurance
+  - name: ProductLines
+    type: ProductLines
+    data:
+      - name: Personal Auto Insurance
+      - name: Homeowners Insurance
+      - name: Renters Insurance
+      - name: Condo Insurance
+      - name: Flood Insurance
+      - name: Boat and Yacht Insurance
+      - name: Umbrella Insurance
+      - name: Pet Insurance
+      - name: Identity Theft Protection
+      - name: Wedding and Event Insurance
+      - name: Travel Insurance
+      - name: Commercial Auto Insurance
+      - name: Commercial Property Insurance
+      - name: General Liability
+      - name: Workers Compensation
+      - name: Business Owners Policy (BOP)
+      - name: Cyber Insurance
+      - name: Management and Professional Liability
+      - name: Inland Marine
+      - name: Ocean Marine
+      - name: Surety Bonds
+      - name: Crime Insurance
+      - name: Excess Casualty
+  - name: Features
+    type: Features
+    data:
+      - name: Independent Agent and Broker Distribution (~15,000 agents/brokers)
+      - name: Developer Portal for Appointed Agents and AMS Integration Partners
+      - name: IntelliDrive and IntelliDrivePlus Telematics Programs
+      - name: MyTravelers Customer Self-Service Portal and Mobile App
+      - name: Online and Mobile Claims Reporting
+      - name: National Claim Operations and Catastrophe Response
+      - name: Multinational Operations (US, Canada, UK, Ireland)
+      - name: Risk Control and Loss Engineering Services
+      - name: Surety Bond Issuance via Bond & Specialty Segment
+  - name: UseCases
+    type: UseCases
+    data:
+      - name: Personal Auto Coverage with Telematics Discounts
+      - name: Homeowners and Renters Coverage
+      - name: Small Business Owners Policies (BOP)
+      - name: Middle-Market and National Account Commercial Coverage
+      - name: Workers Compensation for US Employers
+      - name: Cyber Insurance for Businesses
+      - name: Construction and Contractor Surety Bonds
+      - name: Management and Professional Liability for Executives and Firms
+      - name: Multinational Insurance Programs (US/Canada/UK/Ireland)
+      - name: Agency Integration via Agency-Management-System Connectivity
+  - name: Standards
+    type: Standards
+    data:
+      - name: ACORD Insurance Data and Messaging Standards
+      - name: NAIC Model Laws
+      - name: State Department of Insurance Filings (US)
+      - name: OFAC and AML Compliance
+  - name: Brands
+    type: Brands
+    data:
+      - name: Travelers
+      - name: IntelliDrive
+      - name: IntelliDrivePlus
+      - name: MyTravelers
+      - name: Simply Business (UK)
+      - name: Dominion of Canada General Insurance Company
+  - name: Leadership
+    type: Leadership
+    data:
+      - name: Alan D. Schnitzer
+        title: Chairman and Chief Executive Officer
+  - name: CorporateInfo
+    type: CorporateInfo
+    data:
+      - name: Ticker
+        value: TRV (NYSE)
+      - name: DowJonesIndustrialAverage
+        value: Component since June 8, 2009
+      - name: HeadquartersLegal
+        value: New York, New York
+      - name: HeadquartersOperations
+        value: Hartford, Connecticut (TRV Tower)
+      - name: Employees
+        value: ~34,000 (plus ~15,000 independent agents and brokers)
+      - name: Revenue2025
+        value: "~$48.83 billion"
+      - name: TotalAssets2025
+        value: "~$143.7 billion"
+      - name: FoundedAsTravelers
+        value: "1864 (Travelers Insurance Company); 2004 (current entity after St. Paul Companies merger)"
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

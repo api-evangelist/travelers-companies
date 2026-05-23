@@ -1,0 +1,251 @@
+title: The Travelers Companies Vocabulary
+description: >-
+  Domain vocabulary for The Travelers Companies (NYSE: TRV), a leading US
+  property and casualty (P&C) insurance carrier. Covers personal, business,
+  and bond & specialty insurance lines; agency-and-broker distribution;
+  telematics; and the partner-facing developer portal.
+created: "2026-05-23"
+modified: "2026-05-23"
+
+terms:
+  - term: Property and Casualty (P&C)
+    definition: >-
+      The two main lines of insurance that Travelers writes. Property insurance
+      covers physical assets (homes, autos, buildings, inventory) against loss
+      or damage. Casualty insurance covers legal liability for harm caused to
+      others (bodily injury, property damage, professional errors).
+    tags:
+      - Core Business
+      - Insurance
+
+  - term: Independent Agent
+    definition: >-
+      An insurance agent or brokerage not exclusively appointed to a single
+      carrier. Travelers distributes most products through approximately 15,000
+      independent agents and brokers across the US, Canada, the UK, and Ireland,
+      using agency-management-system (AMS) connectivity to exchange quote,
+      bind, policy, billing, and claims data.
+    tags:
+      - Distribution
+      - Channel
+
+  - term: Agency Appointment
+    definition: >-
+      The contractual relationship by which Travelers authorizes an independent
+      agency to quote, bind, and service Travelers policies. Access to the
+      Travelers developer portal, agency portal, and AMS integration APIs
+      generally requires an active appointment.
+    tags:
+      - Distribution
+      - Onboarding
+
+  - term: Agency Management System (AMS)
+    definition: >-
+      Software used by independent insurance agencies to manage customers,
+      quotes, policies, billing, and claims across multiple carriers. Carriers
+      such as Travelers integrate with major AMS vendors (Applied Epic,
+      Vertafore AMS360 / Sagitta, Hawksoft, etc.) via ACORD messaging and
+      partner APIs.
+    tags:
+      - Distribution
+      - Integration
+
+  - term: ACORD
+    definition: >-
+      The Association for Cooperative Operations Research and Development —
+      the global standards body for insurance data and messaging. ACORD
+      standards (forms, XML, JSON) are the lingua franca for data exchange
+      between carriers, agencies, AMS vendors, and rating systems.
+    tags:
+      - Standards
+      - Integration
+
+  - term: Business Insurance
+    definition: >-
+      Travelers' largest reportable segment. Provides property, casualty,
+      workers compensation, commercial auto, BOP, cyber, management
+      liability, and industry-specialty coverage to small, middle-market,
+      and national-account US businesses.
+    tags:
+      - Segment
+      - Commercial
+
+  - term: Bond & Specialty Insurance
+    definition: >-
+      Travelers reportable segment offering surety bonds, fidelity, crime,
+      management liability, professional liability, and select international
+      specialty products through agents, brokers, and intermediaries.
+    tags:
+      - Segment
+      - Specialty
+
+  - term: Personal Insurance
+    definition: >-
+      Travelers reportable segment offering homeowners, auto, renters, condo,
+      boat, yacht, umbrella, and other consumer P&C products, distributed
+      primarily through independent agents and select direct channels.
+    tags:
+      - Segment
+      - Consumer
+
+  - term: IntelliDrive
+    definition: >-
+      Travelers' 90-day smartphone-based telematics program for personal auto.
+      The IntelliDrive mobile app (iOS 14+, Android 10+) captures braking,
+      acceleration, speed, time of day, and phone distraction to score
+      driving behavior; safe driving can yield up to 30% savings at renewal,
+      and unsafe driving may increase premium.
+    tags:
+      - Telematics
+      - Personal Auto
+
+  - term: IntelliDrivePlus
+    definition: >-
+      A continuous (not 90-day) variant of the IntelliDrive telematics program,
+      available in select US states.
+    tags:
+      - Telematics
+      - Personal Auto
+
+  - term: MyTravelers
+    definition: >-
+      Travelers' customer self-service portal and mobile experience used to
+      manage personal-lines policies, billing, and claims.
+    tags:
+      - Customer Portal
+      - Self-Service
+
+  - term: Surety Bond
+    definition: >-
+      A three-party agreement (principal, obligee, surety) in which the
+      surety guarantees the principal's performance of an obligation to the
+      obligee. Travelers' Bond & Specialty Insurance segment is a leading US
+      issuer of contract, commercial, court, and fidelity bonds.
+    tags:
+      - Bond and Specialty
+      - Product
+
+  - term: Workers Compensation
+    definition: >-
+      State-mandated coverage that pays medical expenses and a portion of
+      lost wages for employees injured on the job, in exchange for the
+      employee giving up the right to sue the employer. A core Travelers
+      Business Insurance product line.
+    tags:
+      - Business Insurance
+      - Statutory
+
+  - term: Business Owners Policy (BOP)
+    definition: >-
+      A packaged commercial product that combines property and general
+      liability coverages (and often business interruption) for small
+      businesses on a single, simplified policy. A core Travelers small-
+      business product.
+    tags:
+      - Business Insurance
+      - Small Business
+
+  - term: Cyber Insurance
+    definition: >-
+      Coverage for losses arising from data breaches, business email
+      compromise, ransomware, network interruption, and related cyber events.
+      Travelers offers cyber coverage in both small business and middle-
+      market commercial lines.
+    tags:
+      - Business Insurance
+      - Cyber
+
+  - term: Quote-Bind-Issue
+    definition: >-
+      The core insurance transaction workflow — quote a risk, bind coverage,
+      and issue a policy. Carrier APIs and AMS integrations typically expose
+      operations along this lifecycle (plus endorsement, renewal, and
+      cancellation).
+    tags:
+      - Workflow
+      - Lifecycle
+
+  - term: First Notice of Loss (FNOL)
+    definition: >-
+      The first report a policyholder or claimant makes to a carrier after an
+      insured event, opening a claim file. Travelers accepts FNOL through
+      online, mobile, agent, and phone channels.
+    tags:
+      - Claims
+      - Workflow
+
+  - term: Catastrophe (CAT) Response
+    definition: >-
+      A carrier's organized response to a declared catastrophe event (named
+      storm, wildfire, earthquake), including mobile claim units, expedited
+      FNOL, and dedicated CAT adjusters. Travelers operates a national CAT
+      response operation.
+    tags:
+      - Claims
+      - Operations
+
+  - term: Loss Control / Risk Control
+    definition: >-
+      Engineering and consulting services offered to commercial policyholders
+      to reduce the frequency and severity of insured losses (e.g., fleet
+      safety, workplace safety, fire protection). A long-standing Travelers
+      capability.
+    tags:
+      - Risk Engineering
+      - Service
+
+  - term: Independent Agency Distribution
+    definition: >-
+      Travelers' dominant go-to-market model. Approximately 15,000 appointed
+      independent agents and brokers sell, service, and counsel customers on
+      Travelers products, supported by carrier-supplied portals, APIs, and
+      training.
+    tags:
+      - Distribution
+      - Strategy
+
+  - term: Simply Business
+    definition: >-
+      A UK-based digital small-business insurance broker acquired by Travelers
+      in 2017. Provides comparison-quote and policy management for landlords
+      and small-business customers across more than 1,500 trades.
+    tags:
+      - Subsidiary
+      - United Kingdom
+
+  - term: TRV
+    definition: >-
+      The New York Stock Exchange ticker symbol for The Travelers Companies,
+      Inc., a component of the Dow Jones Industrial Average since June 8, 2009.
+    tags:
+      - Finance
+      - Stock
+
+  - term: Hartford
+    definition: >-
+      Hartford, Connecticut — Travelers' largest operating location ("TRV
+      Tower") and a historic center of US insurance. The company's legal
+      headquarters is in New York City.
+    tags:
+      - Location
+      - Corporate
+
+  - term: Developer Portal
+    definition: >-
+      developer.travelers.com — a Salesforce Experience Cloud portal used to
+      onboard appointed agents, AMS vendors, and integration partners onto
+      Travelers' partner APIs. Specifications, endpoints, rate limits, and
+      pricing are not publicly published; access is gated by appointment or
+      partnership agreement.
+    tags:
+      - Developer
+      - Gated
+
+  - term: Dow Jones Industrial Average (DJIA)
+    definition: >-
+      A price-weighted index of 30 prominent US public companies. Travelers
+      has been a DJIA component since June 8, 2009 — the only property
+      casualty insurer in the index.
+    tags:
+      - Finance
+      - Index
